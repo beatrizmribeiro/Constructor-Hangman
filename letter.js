@@ -1,4 +1,4 @@
-var word = require("./word");
+var Word = require("./word");
 
 var Letter = function (input) {
 	var wordUse = new Word(input)
@@ -8,6 +8,8 @@ var Letter = function (input) {
 	this.blankSpace = function() {
 		for (var i=0; i < this.length; i++){
 			this.array.push("_");
+	
+
 		}
 		console.log(this.array.join("  "));
 	}
@@ -23,4 +25,4 @@ var Letter = function (input) {
 };
 
 
-module.exports = letter;
+module.exports = Letter;

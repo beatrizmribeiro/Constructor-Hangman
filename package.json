@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/beatrizmribeiro/Constructor-Hangman/issues"
   },
-  "homepage": "https://github.com/beatrizmribeiro/Constructor-Hangman#readme"
+  "homepage": "https://github.com/beatrizmribeiro/Constructor-Hangman#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^3.3.0"
+  }
 }

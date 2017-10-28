@@ -3,4 +3,4 @@ var Word = function (selectedWord) {
 	this.length = selectedWord.length;
 };
 
-module.export = Main
+module.exports = Word;
